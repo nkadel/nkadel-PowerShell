@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 lowercase(){
     echo "$1" | sed "y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/"
 }

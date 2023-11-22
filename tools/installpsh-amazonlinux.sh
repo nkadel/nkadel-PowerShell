@@ -2,6 +2,8 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
+set -e
+
 #Companion code for the blog https://cloudywindows.com
 #call this code direction from the web with:
 #bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-amazonlinux.sh) ARGUMENTS

@@ -2,6 +2,8 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
+set -e
+
 install(){
     #Companion code for the blog https://cloudywindows.com
 

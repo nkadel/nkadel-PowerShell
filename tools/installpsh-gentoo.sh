@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 #call this code direction from the web with:
 #bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-gentoo.sh) ARGUMENTS
 #bash <(curl -s https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-gentoo.sh) <ARGUMENTS>
