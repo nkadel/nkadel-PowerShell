@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -o pipefail
 
 #Companion code for the blog https://cloudywindows.com
 #call this code direction from the web with:

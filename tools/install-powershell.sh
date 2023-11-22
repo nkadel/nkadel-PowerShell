@@ -3,6 +3,7 @@
 # Licensed under the MIT License.
 
 set -e
+set -o pipefail
 
 install(){
     #Companion code for the blog https://cloudywindows.com
