@@ -4,8 +4,8 @@ set -e
 
 #Companion code for the blog https://cloudywindows.com
 #call this code direction from the web with:
-#bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-redhat.sh) ARGUMENTS
-#bash <(curl -s https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-redhat.sh) <ARGUMENTS>
+#bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-rhel.sh) ARGUMENTS
+#bash <(curl -s https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/installpsh-rhel.sh) <ARGUMENTS>
 
 #Usage - if you do not have the ability to run scripts directly from the web,
 #        pull all files in this repo folder and execute, this script
@@ -27,7 +27,7 @@ gitreposubpath="PowerShell/PowerShell/master"
 gitreposcriptroot="https://raw.githubusercontent.com/$gitreposubpath/tools"
 thisinstallerdistro=redhat
 repobased=true
-gitscriptname="installpsh-redhat.psh"
+gitscriptname="installpsh-rhel.psh"
 powershellpackageid=powershell
 
 echo
