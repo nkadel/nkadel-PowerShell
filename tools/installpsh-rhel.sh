@@ -108,8 +108,8 @@ if (( EUID != 0 )); then
     if [[ ("'$*'" =~ skip-sudo-check) && ("$(whereis sudo)" == *'/'* && "$(sudo -nv 2>&1)" != 'Sorry, user'*) ]]; then
         SUDO='sudo'
     else
-        echo "ERROR: You must either be root or be able to use sudo" >&2
-        #exit 5
+        echo "ERROR: You must either be root or be able to use sudo without a passphrase" >&2
+        exit 5
     fi
 fi
 
